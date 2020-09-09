@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>br.com.sysmo.pdv</groupId>
+		<artifactId>sysmo-pdv-dependencies</artifactId>
+		<version>1.21.1</version>
+	</parent>
+
+	<groupId>br.com.sysmo</groupId>
+	<artifactId>sysmo-websocket</artifactId>
+	<version>0.0.0-SNAPSHOT</version>
+	<name>SysmoWebSocket</name>
+	<description> Adaptação Websocket para GrallVm</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-indexer</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-websocket</artifactId>
+		</dependency>
+
+	</dependencies>
+
+</project>
